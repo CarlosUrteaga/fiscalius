@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: './', // Esto asegura que todas las rutas sean relativas al directorio actual
+  base: '/fiscalius/', // Esto debe coincidir EXACTAMENTE con el nombre del repo en GitHub
 })

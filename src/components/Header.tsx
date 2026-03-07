@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, ShieldCheck } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +9,7 @@ const Header: React.FC = () => {
       <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', height: '80px' }}>
         {/* Logo */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-          <ShieldCheck size={32} color="var(--color-secondary)" />
+          <img src="/fiscalius/logo.png" alt="Fiscalius Logo" style={{ height: '48px', width: 'auto' }} />
           <span style={{ fontSize: '1.5rem', fontWeight: '700', color: 'var(--color-primary)' }}>Fiscalius</span>
         </div>
 

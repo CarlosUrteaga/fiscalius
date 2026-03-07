@@ -41,10 +41,6 @@ const Contact: React.FC = () => {
                 <div style={{ backgroundColor: 'rgba(255,255,255,0.1)', padding: '0.75rem', borderRadius: '50%' }}>
                   <MessageSquare size={24} color="var(--color-secondary)" />
                 </div>
-                <div>
-                  <h4 style={{ fontSize: '1.125rem', fontWeight: '600' }}>WhatsApp</h4>
-                  <a href="https://wa.me/5211234567890" target="_blank" rel="noopener noreferrer" style={{ color: '#94A3B8' }}>+52 1 12 3456 7890</a>
-                </div>
               </div>
 
               <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
@@ -53,7 +49,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 style={{ fontSize: '1.125rem', fontWeight: '600' }}>Email</h4>
-                  <a href="mailto:contacto@fiscalius.com" style={{ color: '#94A3B8' }}>contacto@fiscalius.com</a>
+                  <a href="mailto:carlos.urteaga@outlook.com" style={{ color: '#94A3B8' }}>carlos.urteaga@outlook.com</a>
                 </div>
               </div>
             </div>

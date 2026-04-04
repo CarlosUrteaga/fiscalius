@@ -9,7 +9,7 @@ const Header: React.FC = () => {
       <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', height: '80px' }}>
         {/* Logo */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-          <img src="/fiscalius/logo.png" alt="Fiscalius Logo" style={{ height: '48px', width: 'auto' }} />
+          <img src="/logo.png" alt="Fiscalius Logo" style={{ height: '48px', width: 'auto' }} />
           <span style={{ fontSize: '1.5rem', fontWeight: '700', color: 'var(--color-primary)' }}>Fiscalius</span>
         </div>
 
